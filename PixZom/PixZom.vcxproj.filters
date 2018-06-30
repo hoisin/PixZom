@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{6570304c-ae20-471c-b234-adfccec73b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gfx">
+      <UniqueIdentifier>{e5465125-2925-420c-a98b-dc309dedf1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{22da5331-d095-4f76-a888-73eebf827d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{dd4b6cff-1573-4017-9294-eddb957c7044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sim">
+      <UniqueIdentifier>{da646469-e90c-4d9d-ad36-7a444caea358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sim\ECS">
+      <UniqueIdentifier>{e8d5346a-0eff-4c7c-90d8-e66c85e46691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sim\ECS\Systems">
+      <UniqueIdentifier>{83c2b074-34ca-4c96-b20d-ff88d6f988dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gfx\Sprite">
+      <UniqueIdentifier>{e0e1da4c-70c5-4f2e-b939-9f648ce0a729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd Party">
+      <UniqueIdentifier>{7c693de1-8861-4995-a075-99f06bf534ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{14540973-eb57-4669-bd84-62f3163558a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{e12400fd-df59-4655-a803-453b009085e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Texture">
+      <UniqueIdentifier>{a2a544e1-e846-492a-890d-b535dbf02d21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender.cpp">
+      <Filter>Gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureMGR.cpp">
+      <Filter>Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputHDLR.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDB.cpp">
+      <Filter>Sim\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMGR.cpp">
+      <Filter>Sim\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="PixZomApp.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHDLR.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementSystem.cpp">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="PixLevelMap.cpp">
+      <Filter>Sim</Filter>
+    </ClCompile>
+    <ClCompile Include="PixZom.cpp">
+      <Filter>Sim</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformSystem.cpp">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSystem.cpp">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDispenser.cpp">
+      <Filter>Gfx\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Gfx\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd Party\tinyxml2\tinyxml2.cpp">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityGenerator.cpp">
+      <Filter>Sim\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMGR.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CKeyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender.h">
+      <Filter>Gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx_defines.h">
+      <Filter>Gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureMGR.h">
+      <Filter>Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputHDLR.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Sim\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDB.h">
+      <Filter>Sim\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityMGR.h">
+      <Filter>Sim\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="PixZomApp.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHDLR.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.h">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PixLevelMap.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="PixZom.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformSystem.h">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSystem.h">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDispenser.h">
+      <Filter>Gfx\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Gfx\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd Party\tinyxml2\tinyxml2.h">
+      <Filter>3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Sim\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityGenerator.h">
+      <Filter>Sim\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMGR.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

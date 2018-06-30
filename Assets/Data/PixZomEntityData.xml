@@ -1,0 +1,36 @@
+<PixZom>
+  <Entities>
+    <Entity id="player_entity">
+      <Transform>
+        <PosX>0</PosX>
+        <PosY>0</PosY>
+      </Transform>
+      <Motion>
+        <Velocity>5</Velocity>
+        <Acceleration>2</Acceleration>
+      </Motion>
+      <Sprite>
+        <TextureID>star_static</TextureID>
+      </Sprite>
+      <Collision>
+        <Width>64</Width>
+        <Height>64</Height>
+        <Blocking>1</Blocking>
+      </Collision>
+    </Entity>
+	<Entity id="static_star">
+		<Transform>
+			<PosX>0</PosX>
+			<PosY>0</PosY>
+		</Transform>
+		<Sprite>
+			<TextureID>star_animated</TextureID>
+		</Sprite>
+		<Collision>
+			<Width>64</Width>
+			<Height>64</Height>
+			<Blocking>1</Blocking>
+		</Collision>
+	</Entity>
+  </Entities>
+</PixZom>

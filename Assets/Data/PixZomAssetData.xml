@@ -1,0 +1,32 @@
+<PixZom>
+  <Textures>
+	  <Texture id="star_static">
+		<TexturePath>star.bmp</TexturePath>
+		<TextureWidth>64</TextureWidth>
+		<TextureHeight>64</TextureHeight>
+		<FrameWidth>64</FrameWidth>
+		<FrameHeight>64</FrameHeight>
+		<Animations rows="0"/>
+	  </Texture>
+	  <Texture id="star_animated">
+		<TexturePath>starAnim.bmp</TexturePath>
+		<TextureWidth>256</TextureWidth>
+		<TextureHeight>64</TextureHeight>
+		<FrameWidth>64</FrameWidth>
+		<FrameHeight>64</FrameHeight>
+		<Animations rows="1">
+		  <FramesInRow id="idle">4</FramesInRow>
+		</Animations>
+	  </Texture>
+	  <Texture id="concrete_bg">
+		<TexturePath>concreteBg.bmp</TexturePath>
+		<TextureWidth>2048</TextureWidth>
+		<TextureHeight>2048</TextureHeight>
+		<FrameWidth>2048</FrameWidth>
+		<FrameHeight>2048</FrameHeight>
+		<Animations rows="0"/>
+	  </Texture>
+  </Textures>
+  <Sounds>
+  </Sounds>
+</PixZom>
