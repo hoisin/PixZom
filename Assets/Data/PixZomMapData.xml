@@ -1,0 +1,41 @@
+<PixZom>
+	<Map id="test">
+		<Width>832</Width>
+		<Height>640</Height>
+		<TextureID>concrete_bg</TextureID>
+		<TileWidth>64</TileWidth>
+		<TileHeight>64</TileHeight>
+		<Entities>
+			<Entity id="player_entity">
+				<Transform>
+					<PosX>100</PosX>
+					<PosY>100</PosY>
+				</Transform>
+			</Entity>
+			<Entity id="static_star">
+				<Transform>
+					<PosX>500</PosX>
+					<PosY>200</PosY>
+				</Transform>
+			</Entity>
+			<Entity id="static_star">
+				<Transform>
+					<PosX>650</PosX>
+					<PosY>500</PosY>
+				</Transform>
+			</Entity>
+			<Entity id="static_star">
+				<Transform>
+					<PosX>400</PosX>
+					<PosY>50</PosY>
+				</Transform>
+			</Entity>
+			<Entity id="static_star">
+				<Transform>
+					<PosX>400</PosX>
+					<PosY>500</PosY>
+				</Transform>
+			</Entity>
+		</Entities>
+	</Map>
+</PixZom>
