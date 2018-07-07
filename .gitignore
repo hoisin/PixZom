@@ -50,9 +50,9 @@ Temporary Items
 # Ignores
 # =========================
 .vs/
-Debug/
-Release/
-x64/
+/Debug/
+/Release/
+/x64/
 PixZom/Debug/
 PixZom/Release/
 PixZom/x64/
